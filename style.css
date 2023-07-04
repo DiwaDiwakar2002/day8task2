@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
+
+*{
+    font-family: 'Fira Sans', sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+section{
+    background: linear-gradient(45deg, #a5a5a5,#333333);
+    width: 100vw;
+    height: 100vh;
+}
+
+.card1{
+    position: relative;
+    top: 150px;
+    left: 250px;
+    box-shadow: 0 0 30px black;
+    width: 300px;
+    height: 470px;
+    background-color: white;
+}
+
+.bgImg{
+    width: 300px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.textArea1{
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+    text-align: center; 
+}
+
+.profile{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    border: 5px solid white;
+}
+
+h1{
+    position: relative;
+    top: 80px;
+}
+
+.rotate{
+    position: relative; 
+    top: 200px;
+    left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.right{
+    color: #333333;
+    position: relative;
+    top: 230px;
+    left: -85px;
+    font-size: 15px;
+}
+
+p{
+    width: 250px;
+    position: relative;
+    top: 120px;
+    left: 23px;
+}
+
+.copy1{
+    position: absolute;
+    z-index: 1;
+    left: 400px;
+    top: 150px;
+    transform: perspective(1200px) rotateY(45deg);
+    transform-origin: right;
+    
+}
+
+h3{
+    color: #797979;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 110px;
+    font-weight: lighter;
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.centerBar{
+    width: 10px;
+    height: 470px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    bottom: 320px;
+}
+
+.card2{
+    position: absolute;
+    right: 250px;
+    bottom: 120px;
+    box-shadow: 0 0 30px black;
+    width: 300px;
+    height: 470px;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+.media1{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    position: relative;
+    top: 250px;
+    left: 35px;
+
+}
+
+.media1 h2{
+    margin: 0 20px;
+}
+
+.media2{
+    color: rgb(255, 98, 0);
+    position: absolute;
+    bottom: 5px;
+    left: 70px;
+}
+
+.media2 i{
+    margin: 20px;
+}
+
+.para1{
+    color: #616161;
+    position: absolute;
+    top: 20px;
+}
+
+.para2{
+    position: absolute;
+    top: 150px;
+}
+
+.abt{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.media3{
+    position: relative;
+    top: 130px;
+}
+
+.media3 p{
+    word-spacing: 20px;
+    margin-left: 10px;
+}
+
+.copy2{
+    position: absolute;
+    z-index: 1;
+    right: 400px;
+    top: 150px;
+    transform: perspective(1200px) rotateY(-45deg);
+    transform-origin: left;
+    
+}
